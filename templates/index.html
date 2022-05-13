@@ -51,7 +51,7 @@
                     <div class="col-lg-8">
                         {% for post in fresh_posts%}
                           <div class="single-recent-blog-post">
-                            <div class="thumb">
+                             <div class="thumb">
                                 {% if post.image_url %}
                                   <img class="img-fluid" src={{post.image_url}} alt="{{post.title}}"> {% else %}
                                   <img class="img-fluid" src="{% static 'img/banner/blog.png' %}" alt="{{post.title}}"> {% endif %}
